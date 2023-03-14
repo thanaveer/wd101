@@ -1,0 +1,115 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color:purple;
+}
+
+h1 {
+text-align: center;
+margin-top:61px;
+}
+
+
+form {
+max-width: 503px;
+margin: 0 auto;
+padding: 21px;
+border: 1px solid #4a0808;
+border-radius: 11px;
+background-color:pink;
+}
+
+form div {
+margin-bottom: 11px;
+}
+
+label {
+display: inline-block;
+width: 381px;
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+width: 99%;
+padding: 5px;
+border-radius: 6px;
+border: 1px solid #ccc;
+font-size: 15px;
+}
+
+input[type="checkbox"] {
+margin-right: 5px;
+}
+
+button[type="submit"] {
+margin-top: 21px;
+padding: 11px;
+border-radius: 6px;
+border: none;
+background-color: green;
+color: orange;
+font-size: 25px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #357ae8;
+}
+
+table {
+margin-top: 51px;
+border-collapse: collapse;
+width: 100%;
+}
+
+table th,
+table td {
+padding: 10px;
+text-align: left;
+}
+
+table th {
+background-color: brown;
+color: #000000;
+border-top: 5px solid #dcdcdc;
+border-bottom: 5px solid #dcdcdc;
+border-left: 5px solid #dcdcdc;
+border-right: 5px solid #dcdcdc;
+}
+
+table td {
+background-color: yellow;
+color: black;
+border-bottom: 4px solid #847cc9;
+border-top: 4px solid #847cc9;
+border-right: 4px solid #847cc9;
+border-left: 4px solid #847cc9;
+}
+
+@media only screen and (max-width: 500px) {
+form {
+max-width: 100%;
+padding: 10px;
+}
+
+label {
+width: 100%;
+margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+width: 100%;
+margin-bottom: 11px;
+}
+
+button[type="submit"] {
+width: 100%;
+}
+}
